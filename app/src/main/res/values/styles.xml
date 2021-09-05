@@ -1,0 +1,42 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="fontFamily">@font/raleway_regular</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="customDeleteToast">
+        <item name="colorBackground">@color/colorPrimary</item>
+        <item name="iconLeft">@drawable/ic_delete</item>
+        <item name="paddingBottomNoButtons">12dp</item>
+        <item name="length">LONG</item>
+    </style>
+
+    <style name="customUpdateToast">
+        <item name="colorBackground">@color/colorPrimary</item>
+        <item name="iconLeft">@drawable/ic_update</item>
+        <item name="paddingBottomNoButtons">12dp</item>
+        <item name="length">LONG</item>
+    </style>
+
+    <style name="customSaveToast">
+        <item name="colorBackground">@color/colorPrimary</item>
+        <item name="iconLeft">@drawable/ic_save</item>
+        <item name="paddingBottomNoButtons">12dp</item>
+        <item name="length">LONG</item>
+    </style>
+
+    <style name="customToast">
+        <item name="paddingBottomNoButtons">12dp</item>
+        <item name="colorBackground">@color/colorPrimary</item>
+        <item name="length">LONG</item>
+    </style>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="General">
+        <menu>
+            <item android:title="Trash"
+                android:icon="@drawable/ic_trash"
+                android:id="@+id/trash"/>
+        </menu>
+    </item>
+
+    <item android:title="Support">
+        <menu>
+            <item android:title="Rate App"
+                android:icon="@drawable/ic_rate_review"
+                android:id="@+id/rate_app"/>
+            <item android:title="Share App"
+                android:icon="@drawable/ic_share"
+                android:id="@+id/share_app"/>
+        </menu>
+    </item>
+
+</menu>
